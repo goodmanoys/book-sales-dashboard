@@ -65,7 +65,8 @@ def fetch_browser(url):
             page = context.new_page()
             page.goto(url, wait_until='domcontentloaded', timeout=35000)
             page.wait_for_timeout(4500)
-            text = page.locator('body').inner_text(timeout=12000)
+            text = page.evaluate('document.body ? document.body.innerText : \"\"')
+            print('KY_BROWSER ' + json.dumps({'url': page.url, 'title': page.title(), 'bodies': page.locator('body').count(), 'text': text[:10000]}, ensure_ascii=False))
             if not valid_title(text):
                 raise ValueError(f'브라우저에서도 대상 도서 제목이 확인되지 않음 (URL: {page.url})')
             return re.sub(r'\s+', ' ', text)
