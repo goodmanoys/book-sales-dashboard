@@ -1,0 +1,10 @@
+{
+  "name":"다가설 때와 멈출 때 · 도서 판매현황",
+  "short_name":"내 책 순위",
+  "description":"교보문고 순위와 YES24 판매지수를 확인하는 대시보드",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f4f7fb",
+  "theme_color":"#f2f6fb",
+  "icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
