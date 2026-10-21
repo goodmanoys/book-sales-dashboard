@@ -21,8 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
-      - name: Refresh metrics
+        run: pip install requests beautifulsoup4 playwright && python -m playwright install --with-deps chromium      - name: Refresh metrics
         run: python update_data.py
       - name: Commit new snapshot
         run: |
