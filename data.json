@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T18:58:40+00:00",
-  "run_at": "2026-10-21T18:58:40+00:00",
+  "updated_at": "2026-10-22T04:31:58+09:00",
+  "run_at": "2026-10-22T04:31:58+09:00",
   "metrics": {
     "kyobo_category": {
       "value": 66,
@@ -15,7 +15,7 @@
     },
     "yes24_sales": {
       "value": 5214,
-      "checked_at": "2026-10-21T18:58:40+00:00",
+      "checked_at": "2026-10-22T04:31:58+09:00",
       "origin": "yes24"
     }
   },
@@ -46,9 +46,18 @@
       "fresh": [
         "yes24_sales"
       ]
+    },
+    {
+      "at": "2026-10-22T04:31:58+09:00",
+      "kyobo_category": 66,
+      "kyobo_overall": 760,
+      "yes24_sales": 5214,
+      "fresh": [
+        "yes24_sales"
+      ]
     }
   ],
   "errors": {
-    "kyobo": "ValueError: 페이지에서 도서 제목을 확인할 수 없음"
+    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 브라우저: Error: Locator.inner_text: Error: strict mode violation: locator(\"body\") resolved to 2 elements:\n    1) <body class=\"font-body relative __variable_2c2d1f fon | 미확인: kyobo_category, kyobo_overall"
   }
 }
