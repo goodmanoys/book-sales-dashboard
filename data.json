@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T01:51:50+09:00",
-  "run_at": "2026-11-01T01:51:50+09:00",
+  "updated_at": "2026-11-01T02:46:45+09:00",
+  "run_at": "2026-11-01T02:46:45+09:00",
   "metrics": {
     "kyobo_category": {
       "value": 188,
-      "checked_at": "2026-11-01T01:51:50+09:00",
+      "checked_at": "2026-11-01T02:46:45+09:00",
       "origin": "kyobo"
     },
     "kyobo_overall": {
@@ -2347,9 +2347,19 @@
         "kyobo_category",
         "yes24_sales"
       ]
+    },
+    {
+      "at": "2026-11-01T02:46:45+09:00",
+      "kyobo_category": 188,
+      "kyobo_overall": 738,
+      "yes24_sales": 4533,
+      "fresh": [
+        "kyobo_category"
+      ]
     }
   ],
   "errors": {
-    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall"
+    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall",
+    "yes24": "ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함"
   }
 }
