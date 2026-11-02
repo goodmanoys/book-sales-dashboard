@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T07:55:03+09:00",
-  "run_at": "2026-11-03T07:55:03+09:00",
+  "updated_at": "2026-11-03T08:50:16+09:00",
+  "run_at": "2026-11-03T08:50:16+09:00",
   "metrics": {
     "kyobo_category": {
       "value": 277,
-      "checked_at": "2026-11-03T07:55:03+09:00",
+      "checked_at": "2026-11-03T08:50:16+09:00",
       "origin": "kyobo"
     },
     "kyobo_overall": {
@@ -2806,9 +2806,19 @@
         "kyobo_category",
         "yes24_sales"
       ]
+    },
+    {
+      "at": "2026-11-03T08:50:16+09:00",
+      "kyobo_category": 277,
+      "kyobo_overall": 738,
+      "yes24_sales": 4581,
+      "fresh": [
+        "kyobo_category"
+      ]
     }
   ],
   "errors": {
-    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall"
+    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall",
+    "yes24": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.yes24.com/product/goods/198061595"
   }
 }
