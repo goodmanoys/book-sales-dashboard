@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T04:15:48+09:00",
-  "run_at": "2026-11-17T04:15:48+09:00",
+  "updated_at": "2026-11-17T05:12:03+09:00",
+  "run_at": "2026-11-17T05:12:03+09:00",
   "metrics": {
     "kyobo_category": {
       "value": 486,
-      "checked_at": "2026-11-17T04:15:48+09:00",
+      "checked_at": "2026-11-17T05:12:03+09:00",
       "origin": "kyobo"
     },
     "kyobo_overall": {
@@ -15,21 +15,11 @@
     },
     "yes24_sales": {
       "value": 2241,
-      "checked_at": "2026-11-17T04:15:48+09:00",
+      "checked_at": "2026-11-17T05:12:03+09:00",
       "origin": "yes24"
     }
   },
   "history": [
-    {
-      "at": "2026-10-24T07:46:31+09:00",
-      "kyobo_category": 164,
-      "kyobo_overall": 738,
-      "yes24_sales": 4041,
-      "fresh": [
-        "kyobo_category",
-        "yes24_sales"
-      ]
-    },
     {
       "at": "2026-10-24T08:44:01+09:00",
       "kyobo_category": 164,
@@ -5002,6 +4992,16 @@
     },
     {
       "at": "2026-11-17T04:15:48+09:00",
+      "kyobo_category": 486,
+      "kyobo_overall": 738,
+      "yes24_sales": 2241,
+      "fresh": [
+        "kyobo_category",
+        "yes24_sales"
+      ]
+    },
+    {
+      "at": "2026-11-17T05:12:03+09:00",
       "kyobo_category": 486,
       "kyobo_overall": 738,
       "yes24_sales": 2241,
