@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T02:19:48+09:00",
-  "run_at": "2026-11-18T02:19:48+09:00",
+  "updated_at": "2026-11-18T04:19:30+09:00",
+  "run_at": "2026-11-18T04:19:30+09:00",
   "metrics": {
     "kyobo_category": {
-      "value": 486,
-      "checked_at": "2026-11-18T02:19:48+09:00",
+      "value": 475,
+      "checked_at": "2026-11-18T04:19:30+09:00",
       "origin": "kyobo"
     },
     "kyobo_overall": {
@@ -20,15 +20,6 @@
     }
   },
   "history": [
-    {
-      "at": "2026-10-25T00:45:51+09:00",
-      "kyobo_category": 164,
-      "kyobo_overall": 738,
-      "yes24_sales": 4041,
-      "fresh": [
-        "kyobo_category"
-      ]
-    },
     {
       "at": "2026-10-25T01:47:14+09:00",
       "kyobo_category": 164,
@@ -5009,9 +5000,19 @@
         "kyobo_category",
         "yes24_sales"
       ]
+    },
+    {
+      "at": "2026-11-18T04:19:30+09:00",
+      "kyobo_category": 475,
+      "kyobo_overall": 738,
+      "yes24_sales": 2241,
+      "fresh": [
+        "kyobo_category"
+      ]
     }
   ],
   "errors": {
-    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall"
+    "kyobo": "HTTP: ValueError: HTTP 200: 본문에서 대상 도서 제목을 확인하지 못함 | 미확인: kyobo_overall",
+    "yes24": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.yes24.com/product/goods/198061595"
   }
 }
